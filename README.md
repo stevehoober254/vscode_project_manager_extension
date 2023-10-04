@@ -1,71 +1,82 @@
-# vsprojectmanager README
 
-This is the README for your extension "vsprojectmanager". After writing up a brief description, we recommend including the following sections.
+# React Native Project Manager Extension
+
+The React Native Project Manager is a Visual Studio Code extension that simplifies the management of React Native projects directly within the VS Code environment.
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+- Create new React Native projects.
+- Open existing React Native projects.
+- Manage project-specific settings.
+- [Add more features and details here.]
 
-For example if there is an image subfolder under your extension project workspace:
+## Installation
 
-\!\[feature X\]\(images/feature-x.png\)
+You can install the extension directly from the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/your-extension-link).
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+## Usage
 
-## Requirements
+1. Open Visual Studio Code.
+2. [Describe how to use your extension here, including any commands or user interface components.]
+3. [Provide usage examples if necessary.]
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+## Configuration
 
-## Extension Settings
+You can configure project-specific settings for your React Native projects using VS Code's settings. These settings are stored in your project's `.vscode/settings.json` file.
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+To configure settings for a specific project, open the project in VS Code and navigate to "File" > "Preferences" > "Settings." You can then modify the settings under "React Native Project Manager."
 
-For example:
+Example configuration settings:
 
-This extension contributes the following settings:
+```json
+{
+    "reactNativeProjectManager.settingName": "settingValue"
+}
+```
 
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+## Development
 
-## Known Issues
+If you want to contribute to the development of this extension or modify it for your needs, follow these steps:
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+1. Clone the repository:
 
-## Release Notes
+   ```shell
+   git clone https://github.com/your-username/react-native-project-manager.git
+   ```
 
-Users appreciate release notes as you update your extension.
+2. Install dependencies:
 
-### 1.0.0
+   ```shell
+   cd react-native-project-manager
+   npm install
+   ```
 
-Initial release of ...
+3. Open the project in Visual Studio Code.
 
-### 1.0.1
+4. Make your changes and test the extension locally.
 
-Fixed issue #.
+5. Create a pull request if you'd like to contribute your changes.
 
-### 1.1.0
+## License
 
-Added features X, Y, and Z.
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
----
+## Acknowledgments
 
-## Following extension guidelines
+- [List any acknowledgments or credits here.]
 
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
+## Support
 
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
+If you encounter any issues or have questions, please [open an issue](https://github.com/your-username/react-native-project-manager/issues) on GitHub.
 
-## Working with Markdown
+## Release History
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+- [List release notes and version history here.]
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+## Contributors
 
-## For more information
+- [List contributors if applicable.]
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+## Roadmap
 
-**Enjoy!**
+- [Describe the future plans and roadmap for the project.]
